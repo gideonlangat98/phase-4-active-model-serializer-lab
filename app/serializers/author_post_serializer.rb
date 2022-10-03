@@ -5,4 +5,5 @@ class AuthorPostSerializer < ActiveModel::Serializer
   def short_content
     "#{object.content[0..39]}..."
   end
+  
 end
